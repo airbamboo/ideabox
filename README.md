@@ -1,4 +1,4 @@
 ideabox
 =======
 
-An indea platform for trible
+An idea platform for trible
