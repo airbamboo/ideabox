@@ -33,7 +33,7 @@
 	define('QA_MYSQL_HOSTNAME', 'localhost'); // try '127.0.0.1' or 'localhost' if MySQL on same server
 	define('QA_MYSQL_USERNAME', 'itdev');
 	define('QA_MYSQL_PASSWORD', 'M0sk1t!');
-	define('QA_MYSQL_DATABASE', 'offy_wisdom');
+	define('QA_MYSQL_DATABASE', 'ideabox');
 	
 /*
 	Ultra-concise installation instructions:
@@ -57,7 +57,7 @@
 	MySQL database, or to include the Question2Answer tables in an existing MySQL database.
 */
 
-	define('QA_MYSQL_TABLE_PREFIX', 'ow_');
+	define('QA_MYSQL_TABLE_PREFIX', 'ib_');
 	
 /*
 	If you wish, you can define QA_MYSQL_USERS_PREFIX separately from QA_MYSQL_TABLE_PREFIX.
@@ -65,7 +65,7 @@
 	information about user accounts (not including users' activity and points). This allows
 	multiple Q2A sites to have shared logins and users, but separate posts and activity.
 
-	define('QA_MYSQL_USERS_PREFIX', 'ow_users_');
+	define('QA_MYSQL_USERS_PREFIX', 'ib_users_');
 */
 
 /*
