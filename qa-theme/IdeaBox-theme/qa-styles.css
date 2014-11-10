@@ -1578,3 +1578,6 @@ h2 {
     margin-right: 5px;
     vertical-align: top;
 }
+
+/* override */
+.qa-nav-user { min-height:24px; height:auto !important; }
